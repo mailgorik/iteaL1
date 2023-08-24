@@ -8,11 +8,12 @@ public class Car1 {
     //поля/змінні відповідають за стан класу
     String color;
     float weight;
+    String size;
 
     // методи відповідають за ??
     // звертати увагу на неймінг!! можуть бути проблеми на code review
     void printColorAndWeight(){
-        System.out.println(color + " " + weight);
+        System.out.println(color + " " + weight + " " + size);
     }
 
     static int sumOfTwoNumbers(int a, int b){
