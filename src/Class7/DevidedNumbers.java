@@ -1,6 +1,9 @@
 package Class7;
 
 import java.sql.Array;
+//1. Напишіть метод, який ділить кожен елемент масива на задане число і виводить на
+//екран новий масив елементів із поділеними елементами попереднього. Додайте
+//опрацювання виняткових ситуацій
 
 public class DevidedNumbers {
     public static double[] devideNumbers(double[] array, double number) {
